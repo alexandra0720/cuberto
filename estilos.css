@@ -1,0 +1,54 @@
+.row{
+    width: 100;
+    display: flex;
+}
+
+.col1{
+
+    width: 100%;
+    text-align: center;
+}
+
+.col2{
+    width: 50%;
+}
+
+.col4{
+    width: 25%;
+}
+
+h1 {
+    color: green;
+    font-size: 60px;
+}
+
+body {
+    margin: 20%; 
+}
+
+@media screen and (max-width: 700px){
+  
+    body,{
+        width: 40%;
+    }
+}
+
+h3 {
+    text-align: justify;
+    }
+
+h4, h5 {
+        text-align: center;
+    }
+
+div {
+   background-color: #000000;
+   color:white;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
